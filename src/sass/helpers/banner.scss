@@ -1,0 +1,21 @@
+.banner {
+  height: 1000px;
+  margin-bottom: 50px;
+  padding: 0;
+  z-index: 50;
+     background-image: $bg-image,
+    url(../images/picture.jpg);
+    background-position: center;
+    background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+/*Media */
+@media
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .banner {
+      background-image: $bg-image,
+      url(../images/picture@2x.jpg);
+  }
+}

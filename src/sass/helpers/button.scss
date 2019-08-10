@@ -1,0 +1,27 @@
+button:focus {
+  outline: none;
+}
+
+.button {
+  width: 160px;
+  height: 40px;
+  font-size: $main-font-size;
+  font-family: $main-font;
+  font-weight: 700;
+  color: $font-color;
+  cursor: pointer;
+}
+
+.header__button {
+  border: solid 4px $font-color;
+  background-color: transparent;
+  display: block;
+  margin: 0 auto;
+  &:hover {
+    box-shadow: $bg-color;
+    background-color: $bg-color;}
+  }
+
+.footer__button {
+  background-color: $icons-color;
+}

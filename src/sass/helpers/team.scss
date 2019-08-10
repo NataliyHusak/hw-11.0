@@ -1,0 +1,51 @@
+.team__item {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  position: relative;
+  max-width: 380px;
+  min-height: 630px;
+  &:hover .socials {
+    visibility: visible;
+    background-image: $bg-image;
+    box-shadow: 10px 10px 0 0  $icons-color;
+    transform: translate(-10px -10px);
+    opacity: 1;
+    transition: .3s ease-in-out;
+    z-index: 30;
+  }
+}
+
+.team__item:hover .team__item-img  {
+  transform: translate(-10px, -10px);
+}
+
+.team__item-img {
+  margin-bottom: 30px;
+  height: 470px;
+  z-index: 0;
+  transition: .3s ease-in-out;
+}
+
+.team__item-blok {
+  display: inline-flex;
+  text-align: center;
+  flex-direction: column;
+  max-width: 380px;
+}
+
+.team__item-name {
+  text-align: center;
+  font-family: $main-font;
+  font-weight: bold;
+  font-size: $main-font-size;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.team__item-about {
+  text-align: center;
+  font-family: $content-font;
+  font-style: italic;
+  font-size: $main-font-size;
+}

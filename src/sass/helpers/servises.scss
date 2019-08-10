@@ -1,0 +1,36 @@
+.servises__item {
+  display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   max-width: 350px;
+   max-height: 70px;
+   position: relative;
+   margin-bottom: 100px;
+   text-align: center;
+   padding: 0 10px;
+ }
+
+ .servises__icon {
+   position: absolute;
+   transform: translateX(-50px);
+   height: 32px;
+   width: 32px;
+   fill: $icons-color;
+ }
+
+ .servises__item-title {
+   font-family: $main-font;
+   font-size: $main-font-size;
+   line-height: $main-font-hight;
+   font-weight: bold;
+   text-transform: uppercase;
+   text-align: left;
+   margin-bottom: 20px;
+ }
+ .servises__item-text {
+   font-family: $content-font;
+   font-size: $main-font-size;
+   line-height: $main-font-hight;
+   text-align: left;
+ }

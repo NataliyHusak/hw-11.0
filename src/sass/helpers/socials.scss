@@ -1,0 +1,50 @@
+.socials__link {
+  display: block;
+  width: 55px;
+  height: 55px;
+}
+
+.socials {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  left: -10px;
+  top: -10px;
+  width: 380px;
+  height: 470px;
+  background-image: $bg-image;
+  cursor: pointer;
+  z-index: 30;
+}
+
+.socials__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -5px;
+  top: -5px;
+  width: 52px;
+  height: 52px;
+  background-image:$bg-image;
+  cursor: pointer;
+  padding: 1px;
+  z-index: 40;
+}
+
+.socials__icon {
+  fill: $bg-color;
+  width: 52px;
+  height: 52px;
+  background-color: $bg-color-sec;
+  cursor: pointer;
+  margin: 0 2px;
+  z-index: 50;
+}
+
+.socials__icon:hover {
+  background-color: $bg-color;
+  fill: $font-color;
+}

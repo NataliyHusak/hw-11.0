@@ -1,0 +1,13 @@
+.visualli-hidden {
+  display: flex;
+  align-content: center;
+  visibility: hidden;
+  position: absolute;
+  background-color: $bg-color-sec;
+  cursor: pointer;
+  z-index: 50;
+}
+
+.visualli-hidden:hover {
+  visibility: visible;
+}

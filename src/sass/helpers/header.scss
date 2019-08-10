@@ -1,0 +1,19 @@
+.header__text {
+  font-family: $second-font;
+  font-size: 72px;
+  line-height: 1.2;
+  text-align: center;
+  color: $font-color;
+  margin-bottom: 70px;
+}
+
+.header__title {
+  font-family: $main-font;
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  color: $font-color;
+  margin-bottom: 120px;
+}
